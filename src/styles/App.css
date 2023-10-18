@@ -1,0 +1,315 @@
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-bottom: 2px solid #3a415769;
+}
+
+.logo {
+  width: 80px;
+  height: 35px;
+  padding-right: 20px;
+}
+
+.rightHeading {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  background-color: #1d1d1d;
+  align-items: center;
+  padding-left: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 10px;
+  color: #ffffffcc;
+}
+
+.activeIcon {
+  background-color: #00b400;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.connectBtn {
+  display: flex;
+  background-color: #6d35d0;
+  padding: 11px;
+  gap: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+  border-radius: 10px;
+  color: #ffffffcc;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s;
+  border: none;
+}
+.connected {
+  display: flex;
+  background-color: #6d35d0;
+  gap: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+  border-radius: 10px;
+  color: #ffffffcc;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s;
+  border: none;
+  height: 45px;
+}
+
+.detailsContainer {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detailsSection {
+  height: 120px;
+  width: 60%;
+  background-color: #151515;
+  margin-top: 75px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apySection {
+  padding-left: 25px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.apyDisplay {
+  color: #6d35d0;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.apyInfo {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.balanceSection {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: 5px;
+  align-items: center;
+}
+
+.balanceInfo {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.balanceDisplay {
+  font-size: 15px;
+  color: #8a8a8a;
+  display: flex;
+  align-items: center;
+}
+.stakeSection {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: 5px;
+  align-items: center;
+  padding-right: 45px;
+}
+.stakeInfo {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.stakeDisplay {
+  font-size: 15px;
+  color: #8a8a8a;
+  display: flex;
+  align-items: center;
+}
+
+.fundsRewardsBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.fundsContainer {
+  height: fit-content;
+  width: 30%;
+  display: flex;
+  margin-left: 20%;
+  align-items: center;
+  justify-content: center;
+}
+.fundsSection {
+  height: 550px;
+  width: 100%;
+  background-color: #151515;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rewardsContainer {
+  height: fit-content;
+  width: 30%;
+  display: flex;
+  margin-right: 20%;
+  align-items: center;
+  justify-content: center;
+}
+.rewardsSection {
+  height: 550px;
+  width: 100%;
+  background-color: #151515;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenIcon {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  align-items: center;
+  width: 120px;
+  margin-top: 10px;
+}
+
+.stakeInfoContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stakeTitle {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.stakeSub {
+  color: #8a8a8a;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.stakeAmount {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.avlBalance {
+  display: flex;
+  color: #8a8a8a;
+  text-decoration: underline;
+  font-size: 15px;
+  align-items: center;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.totalRewards {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: #8a8a8a;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.mmLogo {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+}
+.buttonBase {
+  background-color: #6d35d0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 284px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #dededef7;
+  margin-top: 15px;
+}
+
+.stakeOff {
+  margin-top: 15px;
+  background-color: #373737;
+}
+
+.rewardsBtn {
+  margin-top: 5px;
+}
+.amountInput {
+  background: none;
+  width: 60px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #dededef7;
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.stakingLogo {
+  height: 40px;
+  width: 40px;
+}
+
+.stakeField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.stakeFieldContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-radius: 10px;
+  width: 266px;
+  border: 1px solid #373737;
+  background-color: #3737374d;
+  margin-top: 2rem;
+}
